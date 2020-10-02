@@ -141,8 +141,21 @@ body {
     }
 
     .direita {
-        min-width: 110%;
-        max-width: 110%;
+        min-width: 70%;
+        max-width: 70%;
         transform: translate(0, -8rem);
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 1.2rem;
+        flex-direction: column;
+    }
+
+    .direita {
+        min-width: 100%;
+        max-width: 90%;
+        transform: translate(0, -3rem);
     }
 }
