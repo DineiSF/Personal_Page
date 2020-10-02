@@ -159,3 +159,39 @@ body {
         transform: translate(0, -3rem);
     }
 }
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 1.5rem;
+        flex-direction: column;
+    }
+
+    .nome {
+        position: relative;
+        transform: translateX(3.5rem);
+    }
+
+    .name {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    .title {
+        font-size: 1.2em;
+        font: bold;
+        margin-top: -1.2rem;
+    }
+    
+    .text {
+        max-width: 750px;
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+    .direita {
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -3rem);
+    }
+}
